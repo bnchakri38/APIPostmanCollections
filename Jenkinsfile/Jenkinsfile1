@@ -84,6 +84,8 @@ pipeline {
 						])
 					}
 				}
+			}
+		}
 
         stage("Deploy to PROD") {
             steps {
