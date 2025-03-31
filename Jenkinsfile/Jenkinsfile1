@@ -71,7 +71,7 @@ pipeline {
 						])
 					}
 				}
-				stage('Publish GoRest Report') {
+				stage('Publish Booking Report') {
 					steps {
 						publishHTML([
 							allowMissing: false,
